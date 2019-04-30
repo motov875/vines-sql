@@ -13,7 +13,8 @@ Gem::Specification.new do |s|
   s.test_files   = Dir['spec/**/*']
   s.require_path = 'lib'
 
-  s.add_dependency 'activerecord', '~> 3.2.13'
+  # s.add_dependency 'activerecord', '~> 3.2.13'
+  s.add_dependency 'activerecord', '~> 4.2.11.1'
   s.add_dependency 'vines', '>= 0.4.5'
 
   s.add_development_dependency 'minitest', '~> 4.7.4'
